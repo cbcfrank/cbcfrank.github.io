@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll and Renge!"
 date:   2016-06-16 13:08:09 -0700
-categories: jekyll update Renge
+categories: 随手记 转载 工作心得
 tags: jekyll Renge
 ---
 
