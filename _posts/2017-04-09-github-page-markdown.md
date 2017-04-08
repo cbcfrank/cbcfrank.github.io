@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Welcome to Jekyll and Renge!"
+date:   2016-06-16 13:08:09 -0700
+categories: jekyll update Renge
+tags: github-page markdown
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/cbcfrank/cbcfrank.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
