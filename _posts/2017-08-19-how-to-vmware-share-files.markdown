@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "如何将Windows文件夹共享至VMWare中"
-date:   2017-08-19 10:06:24 -0700
-categories: jekyll update
+date:   2017-08-19 11:16:24 +0800
+categories: vmware share
 ---
 
 首先设置VMWare Workstation 共享目录
