@@ -28,8 +28,9 @@ p1=$1
 fname=`basename $p1`
 echo fname=$fname
 
-#3 获取上级目录到绝对路径
-pdir=`cd -P $(dirname $p1); pwd`
+#3 获取上级目录到绝对路径 #pdir=`cd -P $(dirname $p1); pwd`
+#3 获取上级目录的路径
+pdir=`cd $(dirname $p1); pwd`
 echo pdir=$pdir
 
 #4 获取当前用户名称

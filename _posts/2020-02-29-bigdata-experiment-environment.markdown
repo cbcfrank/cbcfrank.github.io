@@ -43,7 +43,7 @@ categories: bigdata experiment enviroment
 
 3.在nas创建具体文件夹
 ```shell
-[root@hadoop102 ~]# mkdir -p /mnt/nas/{hadoop102/module,hadoop103/module,hadoop104/module,software}
+[root@hadoop102 ~]# mkdir -p /mnt/nas/{hadoop102/module,hadoop103/module,hadoop104/module,software,cloudera/parcel-repo}
 ```
 
 4.挂载nas的ecs目录
@@ -53,14 +53,17 @@ categories: bigdata experiment enviroment
 # 在 hadoop102上操作
 [root@hadoop102 ~]# ln -s /mnt/nas/hadoop102/module /opt/module
 [root@hadoop102 ~]# ln -s /mnt/nas/software /opt/software
+[root@hadoop102 ~]# ln -s /mnt/nas/cloudera /opt/cloudera
 
 # 在 hadoop103上操作
 [root@hadoop103 ~]# ln -s /mnt/nas/hadoop103/module /opt/module
 [root@hadoop103 ~]# ln -s /mnt/nas/software /opt/software
+[root@hadoop103 ~]# ln -s /mnt/nas/cloudera /opt/cloudera
 
 # 在 hadoop104上操作
 [root@hadoop104 ~]# ln -s /mnt/nas/hadoop104/module /opt/module
 [root@hadoop104 ~]# ln -s /mnt/nas/software /opt/software
+[root@hadoop104 ~]# ln -s /mnt/nas/cloudera /opt/cloudera
 ```
 
 5.[集群文件同步脚本]({% post_url 2020-03-06-xsync-shell-script %})

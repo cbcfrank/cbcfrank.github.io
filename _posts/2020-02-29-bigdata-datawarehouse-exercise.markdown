@@ -12,7 +12,7 @@ categories: bigdata experiment enviroment
  * [1.2.1虚拟机准备]({% post_url 2020-02-29-bigdata-experiment-environment %})
  * [1.2.2 SSH免密登录]({% post_url 2020-02-29-bigdata-experiment-environment %})
  * [1.2.3 集群同步脚本]({% post_url 2020-03-06-xsync-shell-script %})
- * [1.2.4 安装JDK]({% post_url 2020-02-29-bigdata-experiment-environment %})
+ * [1.2.4 安装JDK]({% post_url 2020-03-05-jdk-centos-install %})
  * [1.2.5 集群整体操作脚本]({% post_url 2020-03-06-xcall-shell-script %})
  * [1.2.6 安装MySQL]({% post_url 2020-03-05-mysql-centos-install %})
  * [1.2.7 创建CM用的数据库]({% post_url 2020-02-29-bigdata-experiment-environment %})
